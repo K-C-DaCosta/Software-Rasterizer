@@ -1,0 +1,28 @@
+[package]
+name = "software_rasterizer"
+version = "0.1.0"
+authors = ["khadeem dacosta <khadeem.dacosta@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "1.4.0"
+sdl2 = "0.33.0"
+nalgebra = "0.21.0"
+rand = "*"
+typenum = "*"
+num-traits ="*"
+png = "0.15.0"
+simba ="*"
+
+
+[profile.dev]
+opt-level = 0
+overflow-checks = false
+
+[profile.release]
+opt-level = 3
+overflow-checks = false
+# lto="fat"
+# incremental=true
