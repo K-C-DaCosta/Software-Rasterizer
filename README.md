@@ -1,5 +1,5 @@
 # What is this? 
-A Software rasterizer written in pure rust. If one wished they could use it as an OBJ viewer or even use it as a backend in a graphics lib. 
+A Software rasterizer written in pure rust. Im not really finished with it just yet, but if one wished, they could use it as an OBJ viewer or even use it as a backend in a graphics lib. 
 
 #  What you need
 You need to install `Cargo` and have `SDL2` available on your system.\
