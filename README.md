@@ -19,7 +19,7 @@ cargo run --release
 ```
 
 # Controls
-- Press and hold shit to move camera faster 
+- Press and hold shift to move camera faster 
 - Use the mouse keys to change camera orientations 
 - Use WASD keys to move around in space 
 
